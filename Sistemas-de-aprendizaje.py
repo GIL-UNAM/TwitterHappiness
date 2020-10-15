@@ -21,31 +21,6 @@ from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-################################################# Funciones #####################################################
-def rowse(DataFrame):
-	return DataFrame.iloc[0:10048, 0]
-def rowst(DataFrame):
-	return DataFrame.iloc[0:10048, 1]
-
-
-def apply_cleaning_function_to_list(X):
-	cleaned_X = []
-	for x in X:
-		cleaned_X.append(clean_text(x))
-	return cleaned_X
-def clean_text(raw_text):
-	text = raw_text.lower()
-	tokens = nltk.word_tokenize(text)
-	token_words = [w for w in tokens if w.isalpha()]
-	gt = [w for w in tokens if w == 'gt']
-	punct = [re.sub(r'[^\w\s]', '', w) for w in token_words if not w in gt]
-	stemmed_words = [stemming.stem(w) for w in punct]
-	meaningful_words = [w for w in stemmed_words]
-	
-	joined_words = (' '.join(meaningful_words))
-	return joined_words
-
-#################################################################################################################
 
 if __name__ == "__main__":
 
