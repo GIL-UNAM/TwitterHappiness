@@ -10,7 +10,7 @@ La lista de los principales paquetes empleados en la ejecución de los códigos 
 
 ## :pencil: Cómo citar
 
-## Colaboradores
+## :neckbeard: Colaboradores
 - Gemma Bel-Enguix, Instituto de Ingeniería - UNAM
 - Helena Gómez Adorno, Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas - UNAM
 - Karla Mendoza Grageda, Facultad de Ciencias - UNAM
