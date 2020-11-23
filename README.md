@@ -7,4 +7,4 @@ Como parte del análisis, en el archivo [Frecuencias Relativas](https://github.c
 
 Por último, dentro del archivo [Sistemas de aprendizaje](https://github.com/GIL-UNAM/TwitterHappiness/blob/main/Sistemas%20de%20aprendizaje.py), se muestra el código de como se han aplicado los sistemas de aprendizaje **Naive Bayes (NB)**, **Logistic Regression (LR)**, **Random Forest (RF)** y **Support Vector Machine (SVM)** con conjuntos de <em>train-tests</em> en estratificaciones de 3 capas y obteniendo un porcentaje de exactitud y un score para cada sistema de aprendizaje en cada capa.
 
-La lista de los principales paquetes empleados en la ejecición de los códigos se pueden encontrar en el archivo [Pre-requisitos](https://github.com/GIL-UNAM/TwitterHappiness/blob/main/Pre-requisitos.md).
+La lista de los principales paquetes empleados en la ejecución de los códigos se pueden encontrar en el archivo [Pre-requisitos](https://github.com/GIL-UNAM/TwitterHappiness/blob/main/Pre-requisitos.md).
